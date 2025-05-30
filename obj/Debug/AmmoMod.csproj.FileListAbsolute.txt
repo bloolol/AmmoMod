@@ -1,0 +1,16 @@
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\AmmoMod.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\AmmoMod.pdb
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\GTAExpansion.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\ScriptHookVDotNet3.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\HTools.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\NativeUI.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\NAudio.Core.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\GTAExpansion.pdb
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\ScriptHookVDotNet3.pdb
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\ScriptHookVDotNet3.xml
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\NativeUI.xml
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.AssemblyReference.cache
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.CoreCompileInputs.cache
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.CopyComplete
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.pdb
