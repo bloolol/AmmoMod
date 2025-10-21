@@ -31,8 +31,6 @@ namespace AmmoMod
 
         private void OnTick(object sender, EventArgs e)
         {
-            if (Game.IsPaused)
-                return;
             if (Game.Player.Character.Weapons.Current.Group == WeaponGroup.AssaultRifle)
             {
 
@@ -63,29 +61,6 @@ namespace AmmoMod
                     }
                     else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 210)
                     {
-                        Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)210, (InputArgument)true);
-
-                        /*
-                        Function.Call(Hash.ATTACH_ENTITY_TO_ENTITY, new InputArgument[15]
-                        {
-              (InputArgument) (Entity) Game.Player.Character.Weapons.
-              (InputArgument) (Entity) Game.Player.Character,
-              (InputArgument) Bone.SkelSpine3,
-              (InputArgument) 0.075f,
-              (InputArgument) 0.235f,
-              (InputArgument)(-0.02f),
-              (InputArgument) 0.0f,
-              (InputArgument) 155f,
-              (InputArgument) 0.0f,
-              (InputArgument) true,
-              (InputArgument) true,
-              (InputArgument) false,
-              (InputArgument) true,
-              (InputArgument) 2,
-              (InputArgument) true
-                        });
-                        */
-
                         Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)210, (InputArgument)true);
 
                     }
@@ -148,7 +123,7 @@ namespace AmmoMod
 
 
 
-                    if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 120)
+                 if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 120)
                     {
                         Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)120, (InputArgument)true);
 
@@ -165,7 +140,7 @@ namespace AmmoMod
             {
                 if (GTAExpansion.InventoryBag.doesPedHasInventoryBag(Game.Player.Character))
                 {
-                    if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 96)
+                    if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 96 )
                     {
 
                         Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)96, (InputArgument)true);
@@ -234,14 +209,14 @@ namespace AmmoMod
             else if (Game.Player.Character.Weapons.Current.Group == WeaponGroup.Thrown)
             {
 
-                if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 1)
+                if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 5)
                 {
-                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)1, (InputArgument)true);
+                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)5, (InputArgument)true);
 
                 }
-                else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 1)
+                else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 10)
                 {
-                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)1, (InputArgument)true);
+                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)10, (InputArgument)true);
 
                 }
 
@@ -277,93 +252,12 @@ namespace AmmoMod
 
 
             }
-            else if (Game.Player.Character.Weapons.Current == WeaponHash.FlareGun)
-            { 
-                if (GTAExpansion.InventoryBag.doesPedHasInventoryBag(Game.Player.Character))
-                {
-                    if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 5)
-                    {
-
-                        Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)3, (InputArgument)true);
 
 
-                    }
-                    else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 5)
-                    {
-                        Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)5, (InputArgument)true);
-
-                    }
-                }
-                else if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 2 && !GTAExpansion.InventoryBag.doesPedHasInventoryBag(Game.Player.Character))
-                {
-                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)2, (InputArgument)true);
-
-                }
-                else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 3)
-                {
-                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)3, (InputArgument)true);
-
-                }
-
-            }
-            else if (Game.Player.Character.Weapons.Current == WeaponHash.Firework)
-            {
-                if (GTAExpansion.InventoryBag.doesPedHasInventoryBag(Game.Player.Character))
-                {
-                    if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 2)
-                    {
-
-                        Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)2, (InputArgument)true);
 
 
-                    }
-                    else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 5)
-                    {
-                        Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)5, (InputArgument)true);
-
-                    }
-                }
-                else if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 2 && !GTAExpansion.InventoryBag.doesPedHasInventoryBag(Game.Player.Character))
-                {
-                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)2, (InputArgument)true);
-
-                }
-                else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 3)
-                {
-                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)3, (InputArgument)true);
-
-                }
-
-            }
-            else if (Game.Player.Character.Weapons.Current == WeaponHash.RPG)
-            {
-                if (GTAExpansion.InventoryBag.doesPedHasInventoryBag(Game.Player.Character))
-                {
-                    if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 2)
-                    {
-
-                        Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)2, (InputArgument)true);
 
 
-                    }
-                    else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 5)
-                    {
-                        Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)5, (InputArgument)true);
-
-                    }
-                }
-                else if (Game.Player.Character.Armor == 0 && Game.Player.Character.Weapons.Current.Ammo > 2 && !GTAExpansion.InventoryBag.doesPedHasInventoryBag(Game.Player.Character))
-                {
-                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)2, (InputArgument)true);
-
-                }
-                else if (Game.Player.Character.Armor > 0 && Game.Player.Character.Weapons.Current.Ammo > 3)
-                {
-                    Function.Call<int>(Hash.SET_PED_AMMO, (InputArgument)Game.Player.Character, (InputArgument)Game.Player.Character.Weapons.Current.Hash, (InputArgument)3, (InputArgument)true);
-
-                }
-
-            }
 
         }
     }

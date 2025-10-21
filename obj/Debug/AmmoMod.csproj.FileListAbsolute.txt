@@ -14,3 +14,10 @@ C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debu
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.CopyComplete
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.dll
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.pdb
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.AssemblyReference.cache
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.CoreCompileInputs.cache
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.dll
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.pdb
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\AmmoMod.dll
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\AmmoMod.pdb
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.Up2Date
