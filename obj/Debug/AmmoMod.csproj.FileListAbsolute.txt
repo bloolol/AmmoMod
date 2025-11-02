@@ -4,14 +4,9 @@ C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debu
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\ScriptHookVDotNet3.dll
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\HTools.dll
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\NativeUI.dll
-C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\NAudio.Core.dll
-C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\GTAExpansion.pdb
-C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\ScriptHookVDotNet3.pdb
-C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\ScriptHookVDotNet3.xml
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\NativeUI.xml
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.AssemblyReference.cache
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.CoreCompileInputs.cache
-C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.CopyComplete
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.dll
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.pdb
 C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.AssemblyReference.cache
@@ -21,3 +16,6 @@ C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectT
 C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\AmmoMod.dll
 C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\AmmoMod.pdb
 C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.Up2Date
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\Peeking.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\bin\Debug\NAudio.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\AmmoMod\obj\Debug\AmmoMod.csproj.Up2Date
